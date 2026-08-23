@@ -1,0 +1,19 @@
+# =============================================
+# 115320lite 规则集
+# 适用: Surge (iOS/macOS)
+# 使用方式(GitHub远程引用):
+#   [Rule]
+#   #!include https://raw.githubusercontent.com/USER/REPO/main/115320-rules.list
+#   或者用规则集订阅: RULE-SET,https://....../115320-rules.list,Proxy
+# =============================================
+
+# --- 专属域名 直连 ---
+DOMAIN-SUFFIX,xxrmb.com,DIRECT
+DOMAIN-SUFFIX,cdn.278612356.xyz,DIRECT
+DOMAIN-SUFFIX,st.stluma.com,DIRECT
+
+# --- 专属 IP 直连 ---
+IP-CIDR,38.76.216.46/32,DIRECT,no-resolve
+
+# --- 自定义端口 直连 ---
+DEST-PORT,123,DIRECT
