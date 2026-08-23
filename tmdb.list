@@ -1,0 +1,7 @@
+# NAME: TMDB
+# DESC: TMDB 相关域名规则
+# 使用(策略外部指定):
+#   [Rule]
+#   RULE-SET,https://raw.githubusercontent.com/USER/REPO/main/tmdb.list,🇺🇸DMIT LAX.AS3.Pro
+DOMAIN-SUFFIX,image.tmdb.org
+DOMAIN-SUFFIX,api.themoviedb.org
