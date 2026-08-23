@@ -1,0 +1,8 @@
+# NAME: WeChat ASN
+# DESC: 腾讯 WeChat 相关 ASN 直连规则
+# 使用(RULE-SET, 策略在外部指定):
+#   [Rule]
+#   RULE-SET,https://raw.githubusercontent.com/USER/REPO/main/wechat-asn.list,Proxy
+IP-ASN,132203
+IP-ASN,56040
+IP-ASN,45090
