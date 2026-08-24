@@ -1,0 +1,8 @@
+# NAME: TestFlight
+# DESC: TestFlight 商店相关规则
+# 使用(策略外部指定):
+#   [Rule]
+#   RULE-SET,https://raw.githubusercontent.com/USER/REPO/main/testflight.list,Proxy
+DOMAIN,testflight.apple.com
+DOMAIN,beta.apple.com
+DOMAIN-KEYWORD,testflight
