@@ -1,0 +1,11 @@
+# Apple Intelligence ChatGPT 规则
+# 必须放在所有规则之前，确保 Apple 规则组保持 DIRECT
+DOMAIN,guzzoni.apple.com,AI
+DOMAIN-SUFFIX,smoot.apple.com,AI
+DOMAIN,cp4.cloudflare.com,AI
+DOMAIN,apple-relay.apple.com,AI
+DOMAIN,apple-relay.cloudflare.com,AI
+DOMAIN,apple-relay.fastly-edge.com,AI
+DOMAIN,apple-relay.akamaized.net,AI
+DOMAIN,apple-relay.mask.apple-dns.net,AI
+DOMAIN,gspe1-ssl.ls.apple.com,AI
