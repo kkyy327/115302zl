@@ -9,6 +9,8 @@ IP-ASN,45090
 
 # > WeChat
 DOMAIN-SUFFIX,wechat.com,extended-matching
+DOMAIN,dns.weixin.qq.com
+DOMAIN,dns.weixin.qq.com.cn
 # DOMAIN,dl.wechat.com
 # DOMAIN,sglong.wechat.com
 # DOMAIN,sgminorshort.wechat.com
