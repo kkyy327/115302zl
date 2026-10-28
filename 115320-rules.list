@@ -15,9 +15,30 @@ DOMAIN-SUFFIX,st.stluma.com,DIRECT
 DOMAIN-KEYWORD,xiaoheixh,DIRECT
 DOMAIN-SUFFIX,video.emos.best,DIRECT
 DOMAIN-SUFFIX,panel.988726.xyz,DIRECT
+DOMAIN-SUFFIX,115.com,DIRECT
 
 # --- 专属 IP 直连 ---
 IP-CIDR,38.76.216.46/32,DIRECT,no-resolve
 
 # --- 自定义端口 直连 ---
 DEST-PORT,123,DIRECT
+
+# --- JavDB（代理 · 非日本节点） ---
+DOMAIN-SUFFIX,jdforrepam.com,Proxy
+DOMAIN-SUFFIX,c0.jdbstatic.com,Proxy
+DOMAIN-SUFFIX,tp.spfcas.com,Proxy
+
+# --- 播放源（代理） ---
+DOMAIN-SUFFIX,jable.tv,Proxy
+DOMAIN-SUFFIX,memojav.com,Proxy
+DOMAIN-SUFFIX,javp.cc,Proxy
+DOMAIN-SUFFIX,javp.cc.cd,Proxy
+DOMAIN-SUFFIX,missav.ai,Proxy
+
+# --- 预告片/元数据（代理） ---
+DOMAIN-SUFFIX,fourhoi.com,Proxy
+DOMAIN-SUFFIX,image.mgstage.com,日本节点
+
+# --- 封面拼接（代理 · 必须日本节点） ---
+DOMAIN-SUFFIX,pics.dmm.co.jp,日本节点
+DOMAIN-SUFFIX,awsimgsrc.dmm.co.jp,日本节点
